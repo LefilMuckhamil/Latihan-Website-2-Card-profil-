@@ -1,0 +1,99 @@
+*{
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
+.container{
+    width: 800px;
+    margin:auto;
+    background-color: white;
+}
+
+.header{
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.judul{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.header li{
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+.header a{
+    text-decoration: none;
+    color: salmon;
+    padding: 3px;
+}
+
+.header a:hover{
+    color: white;
+    background-color: lightblue;
+    font-weight: bold;
+}
+
+.hero{
+    height: 280px;
+    background-image:url(gambar2.jpg);
+    background-size: cover;
+    background-position: 0 0;
+    border-top: 5px solid lightblue;
+    border-bottom: 5px solid salmon;
+    
+}
+
+.content{
+    padding: 10px 10px 0px 10px;
+    margin-top: -22px;
+}
+
+.content h2{
+    font-size: 32px;
+}
+
+.content .penulis {
+    margin-top: -20px;
+}
+
+.content .penulis a{
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.content .penulis a:hover{
+    background-color: bisque;
+    color: red;
+}
+
+.content p{
+    margin-bottom: 10px;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 20px;
+    word-spacing: 2px;
+   
+}
+
+.footer{
+    background-color: black;
+    height: 50px;
+    padding-top: 1px;
+}
+
+.footer .copy{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold
+
+}
