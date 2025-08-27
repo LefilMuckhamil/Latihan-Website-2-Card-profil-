@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+  display: flex; /* Ini untuk menengahkan kartu */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.profile-card {
+  width: 300px;
+  background-color: white;
+  padding: 20px;
+  text-align: center; /* Perhatikan ini, ini mengatur teks di dalamnya */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Membuat gambar jadi bulat */
+  object-fit: cover;
+}
+
+.profile-name {
+  margin: 15px 0 5px 0;
+  color: #333;
+}
+
+.profile-bio {
+  color: #666;
+  line-height: 1.5;
+}
+
+.profile-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}

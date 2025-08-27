@@ -1,0 +1,77 @@
+/* -- Reset Dasar & Styling Body -- */
+body {
+  font-family: sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+
+  /* Flexbox untuk menengahkan kartu di tengah halaman */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* -- WADAH UTAMA KARTU -- */
+.profile-card {
+  width: 320px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.5);
+  padding: 24px;
+  
+  /* PARENT: Mengaktifkan mode Flexbox untuk bagian di dalamnya */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* -- BAGIAN ISI KARTU -- */
+.profile-image {
+  /* CHILD: Mengatur dirinya sendiri */
+  width: 100px;
+  height: 100px;
+  border-radius: 10%; /* 50% dari width/height akan menciptakan lingkaran sempurna */
+  object-fit: cover; /* Memastikan gambar tidak gepeng */
+  margin-bottom: 16px; /* Mendorong konten di bawahnya */
+}
+
+.card-body {
+  /* CHILD: Mengatur dirinya sendiri */
+  text-align: center; /* Membuat semua teks di dalamnya rata tengah */
+}
+
+.user-name {
+  margin: 0;
+  font-size: 23px;
+}
+
+.user-title {
+  margin: 10px 0 12px 0; /* Atas, Kanan, Bawah, Kiri */
+  color: #666;
+  font-weight: normal;
+}
+
+.user-bio {
+  font-size: 14px;
+  line-height: 2; /* Memberi jarak antar baris agar mudah dibaca */
+  
+}
+
+/* -- BAGIAN FOOTER KARTU -- */
+.card-footer {
+  margin-top: 15px;
+
+  /* PARENT: Mengaktifkan mode Flexbox untuk link di dalamnya */
+  display: flex;
+  gap: 12px; /* Memberi jarak antar link */
+}
+
+.social-link {
+  /* CHILD: Mengatur dirinya sendiri */
+  padding: 8px 16px;
+  background-color: #448aff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
