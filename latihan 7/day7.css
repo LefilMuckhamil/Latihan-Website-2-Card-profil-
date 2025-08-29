@@ -1,0 +1,118 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #1a2037;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #02343f;
+  padding: 10px;
+  height: 60px;
+}
+
+.logo-kiri {
+  letter-spacing: 10px;
+  color: #3a97d4;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.nav-link {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  gap: 30px;
+  cursor: pointer;
+  padding-right: 15px;
+}
+
+.nav-link li a {
+  text-decoration: none;
+  color: #3a97d4;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav-link li a:hover {
+  color: white;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.product-list {
+  gap: 30px;
+  justify-content: space-around;
+  align-items: center;
+  margin: 40px 0;
+  display: flex;
+}
+
+.product-card {
+  width: 200px;
+
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.product-card-image {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.product-card__info {
+  padding: 0 0 16px 0;
+  display: flex; /* 1. Jadikan dia Manajer */
+  flex-direction: column; /* 2. Perintahkan untuk menyusun ke bawah */
+  align-items: center; /* 3. Ratakan semua itemnya di tengah secara horizontal */
+  gap: 12px;
+}
+
+.product-card__name {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.product-card__price {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.btn {
+  border: none;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.container {
+  background-color: #26667f;
+}
+
+.footer {
+  width: 100%;
+}
+
+.footer,
+.copy {
+  background-color: #02343f;
+  text-align: center;
+  padding: 30px;
+  font-size: 18px;
+  color: white;
+}
