@@ -1,0 +1,82 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: darkslategray;
+  background: url(bg.jpg);
+  background-size: cover;
+}
+
+.card {
+  width: 350px;
+  overflow: hidden;
+  padding-bottom: 25px;
+  background-color: white;
+  text-align: center;
+
+  backdrop-filter: bluer(15px);
+  -webkit-backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.card-image img {
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  object-fit: cover;
+}
+
+.nama {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.jabatan {
+  margin-bottom: 5px;
+}
+
+.deskripsi {
+  padding: 0 15px 15px 15px;
+}
+
+.btn {
+  background-color: blue;
+  text-decoration: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+  list-style: none;
+  margin: 0 10px 0 10px;
+  border: none;
+}
+
+.btn:hover {
+  background-color: grey;
+  color: black;
+}
+
+.social-links a {
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+.social-links a:hover {
+  color: white;
+}

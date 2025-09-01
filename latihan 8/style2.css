@@ -1,0 +1,72 @@
+p {
+  font-size: 20px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.container {
+  border-radius: 5px solid black;
+}
+
+.kotak {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  margin: 50px auto 0;
+
+  /* Styling tambahan agar teks terlihat bagus */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; /* Warna teks awal */
+  font-size: 24px;
+  font-family: sans-serif;
+
+  /* Transisi yang sudah diperbaiki */
+  transition: transform 1s, background-color 0.4s, border-radius 1s, color 0.4s;
+}
+
+.kotak:hover {
+  background-color: #1be0d7; /* Warna background diubah agar aquamarine terlihat jelas */
+  color: aquamarine; /* Sekarang warna teks akan berubah */
+  transform: scale(1.2) rotate(45deg); /* Scale diubah agar tidak terlalu ekstrim */
+  border-radius: 50%; /* Dibuat jadi lingkaran agar efeknya lebih dramatis */
+}
+
+.kotak1 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(195, 223, 36);
+  margin: 50px auto 0;
+  transition: 1s;
+}
+
+.kotak1:hover {
+  transform: rotate(180deg) scale(1.5);
+}
+
+.kotak2 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(163, 95, 202);
+  margin: 50px auto 0;
+  transition: transform 1.5s, background-color 0.4s, border-radius 1s;
+}
+
+.kotak2:hover {
+  transform: scale(2) skew(40deg);
+  border-radius: 50%;
+  background-color: salmon;
+}
+.kotak3 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(95, 143, 55);
+  margin: 50px auto 0;
+}
+.kotak4 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(148, 31, 31);
+  margin: 50px auto 0;
+}
