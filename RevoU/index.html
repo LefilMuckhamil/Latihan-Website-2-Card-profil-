@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do-List App</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Todo List</h1>
+
+      <form class="todo-form">
+        <input type="text" id="todo-input" placeholder="Add a todo..." />
+        <input type="date" id="due-date-input" />
+        <button type="submit">+</button>
+      </form>
+
+      <div class="actions">
+        <button id="filter-btn">FILTER</button>
+        <button id="delete-all-btn">DELETE</button>
+      </div>
+
+      <div class="todo-list-container">
+        <div class="list-header">
+          <span>TASK</span>
+          <span>DUE DATE</span>
+          <span>STATUS</span>
+          <span>ACTION</span>
+        </div>
+        <ul id="todo-list"></ul>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
